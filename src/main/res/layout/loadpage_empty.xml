@@ -6,6 +6,7 @@
     android:gravity="center">
 
     <ImageView
+        android:id="@+id/iv_empty"
         
         android:layout_width="80dp"
         android:layout_height="80dp"
@@ -14,6 +15,7 @@
         android:src="@drawable/ic_empty_page" />
 
     <TextView
+        android:id="@+id/tv_empty"
         android:gravity="center"
         android:text="我是空界面"
         android:layout_width="match_parent"

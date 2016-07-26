@@ -24,6 +24,9 @@ public class MainActivity extends BaseActivity {
             case R.id.btn_fragment:
                 readyGo(TestFragemntActivity.class);
                 break;
+            case R.id.btn_multiLoadPage:
+                readyGo(MultiLoadPageActivity.class);
+                break;
             default:
                 break;
         }

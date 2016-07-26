@@ -20,4 +20,11 @@
         android:layout_height="wrap_content"
         android:text="Activity测试例子"
         android:onClick="onButtonClick"/>
+
+    <Button
+        android:id="@+id/btn_multiLoadPage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="multiLoadPage测试例子"
+        android:onClick="onButtonClick"/>
 </LinearLayout>
